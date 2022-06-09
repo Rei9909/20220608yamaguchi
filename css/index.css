@@ -358,17 +358,18 @@ margin-top: 50px;
 }
 
 .inquiry {
-  margin-top: 80px;
   background-color: rgb(240, 238, 238);
   width: 100%;
   height: 300px;
+  margin-top: 30px;
 }
 
 .inquiry__ttl {
   font-size: 26px;
   font-weight: bold;
-  margin: 40px auto;
-  padding-top: 100px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -415,10 +416,10 @@ margin-top: 50px;
 }
 
 .footer__nav-item {
-  margin-left:10px;
+  margin-left: 10px;
 }
 
-.footer__nav-list li:not(:nth-child(7)){
+.footer__nav-list li:not(:nth-child(7)) {
   border-right: solid 1px white;
   padding-right: 9px;
 }
@@ -437,7 +438,7 @@ margin-top: 50px;
   }
 }
 
-.footer__humburger-nav-list a{
+.footer__humburger-nav-list a {
   text-decoration: none;
   color: white;
 }
